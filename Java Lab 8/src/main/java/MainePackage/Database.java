@@ -9,7 +9,7 @@ public class Database
     private static Database dbInstance;
     private final String DB_USERNAME = "dba";
     private final String DB_PASSWORD = "sql123";
-    private final String DB_CONN_STR = "jdbc:mysql://localhost:3306/dba";
+    private final String DB_CONN_STR = "jdbc:mysql://localhost:3306/donilabjava";
     public Connection dbConnection;
 
     private Database()
